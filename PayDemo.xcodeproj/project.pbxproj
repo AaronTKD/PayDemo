@@ -43,7 +43,6 @@
 		4A6C5FBA1C17D9CD005CBE47 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6C5FB81C17D9CD005CBE47 /* libssl.a */; };
 		4A6C5FBB1C17DA00005CBE47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6C5FB51C17D97D005CBE47 /* Foundation.framework */; };
 		4AC8F9B01C227722006DDE91 /* ConstString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC8F9AF1C227722006DDE91 /* ConstString.m */; };
-		4AFBCB9C1C1FE80000A57808 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFBCB9B1C1FE80000A57808 /* ImageIO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -198,7 +197,6 @@
 		4A6C5FB81C17D9CD005CBE47 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
 		4AC8F9AE1C227722006DDE91 /* ConstString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstString.h; sourceTree = "<group>"; };
 		4AC8F9AF1C227722006DDE91 /* ConstString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstString.m; sourceTree = "<group>"; };
-		4AFBCB9B1C1FE80000A57808 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,7 +204,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AFBCB9C1C1FE80000A57808 /* ImageIO.framework in Frameworks */,
 				4A6C5FA61C17D8F6005CBE47 /* libz.tbd in Frameworks */,
 				4A27BAA61C18075900443F27 /* libsqlite3.0.tbd in Frameworks */,
 				4A27BAA41C18074100443F27 /* Security.framework in Frameworks */,
@@ -267,7 +264,6 @@
 		4A6C5EF81C17D203005CBE47 = {
 			isa = PBXGroup;
 			children = (
-				4AFBCB9B1C1FE80000A57808 /* ImageIO.framework */,
 				4A27BAA51C18075900443F27 /* libsqlite3.0.tbd */,
 				4A27BAA31C18074100443F27 /* Security.framework */,
 				4A6C5FB51C17D97D005CBE47 /* Foundation.framework */,
